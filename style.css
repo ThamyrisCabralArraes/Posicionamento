@@ -20,3 +20,8 @@ p {
 }
 
 /* position static é a normal */
+.absolute {
+    border: 1px red solid ;
+    position: absolute;
+    right: 20px;
+}

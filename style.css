@@ -25,12 +25,13 @@ p {
 .absolute {
     border: 1px green solid ;
     position: absolute;
-    right: 30px; 
+    right: 80px; 
 }
 .fixed {
     border: 1px yellow solid ;
     position: fixed;
     bottom: 0px;
+    right: 0px;
 }
 /* 
 fixed é bom para chats */

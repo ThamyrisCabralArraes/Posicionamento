@@ -1,9 +1,11 @@
 body {
     background: #007fc7;
+    margin: 10px;
 }
 #container {
     background: #fff;
     margin: 10px auto;
+    
 
 }
 p {
@@ -21,7 +23,14 @@ p {
 
 /* position static é a normal */
 .absolute {
-    border: 1px red solid ;
+    border: 1px green solid ;
     position: absolute;
-    right: 20px;
+    right: 30px; 
 }
+.fixed {
+    border: 1px yellow solid ;
+    position: fixed;
+    bottom: 0px;
+}
+/* 
+fixed é bom para chats */
